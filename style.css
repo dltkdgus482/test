@@ -16,7 +16,6 @@
     background-position: center;
 }
 
-
 .text {
     display: inline-block;
     text-align: start;
@@ -29,16 +28,13 @@
 }
 
 .my-intro {
-    height: 100px;
 }
 
 .skills {
-    height: 100px;
-    background-color: lightgray;
 }
 
 .project {
-    height: 100px;
+    background-color: lightgray;
 }
 
 .contact {
@@ -106,4 +102,64 @@
 
 .Introduction {
     font-size: 25px;
+}
+
+.Skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_vc {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-image: url('./version-control.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img_backend {
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-image: url('./backend.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.skills_text {
+    font-size: 30px;
+}
+
+.SOLID {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-image: url('./GR.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+
+.GR {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-image: url('./GR.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.SR {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-image: url('./GR.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
