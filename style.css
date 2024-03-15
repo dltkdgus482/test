@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.img {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-image: url('./image.png');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.text {
+    display: inline-block;
+    text-align: start;
+    vertical-align: center;
+    align-self: center;
+}
+
+.frontpage {
+    background-color: lightgray;
+}
+
+.my-intro {
+    height: 100px;
+}
+
+.skills {
+    height: 100px;
+    background-color: lightgray;
+}
+
+.project {
+    height: 100px;
+}
+
+.contact {
+    background-color: #333;
+    color: #d8d8d8;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+}
+
+/* @media (max-width: 1000px) {
+    .article {
+        display: flex;
+    }
+
+    .frontpage, .my-intro {
+        width: 50%;
+    }
+
+    .skills {
+        width: 30%;
+    }
+
+    .project {
+        width: 70%;
+    }
+} */
+
+.contact_href:link {
+    color : white;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+
+.contact_href:visited {
+    color : white;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+
+.contact_href:hover {
+    color : white;
+    text-decoration: none;
+}
+
+.contact_href:active {
+    color : white;
+    text-decoration: underline;
+    text-decoration-color: skyblue;
+}
+
+.custom_color {
+    color: #0079b3;
+}
+
+.Intro {
+    font-size: 20px;
+    line-height: 10px;
+    color: #777;
+    padding-left: 20px;
+}
+
+.Introduction {
+    font-size: 25px;
+}
